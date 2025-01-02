@@ -14,7 +14,11 @@ const getSceneUrl = () => {
         return "https://prod.spline.design/Vlv3dFnQxjttuaQN/scene.splinecode"; 
     } else if (props.weather == "Rainy") {
     return "https://prod.spline.design/AwKraN20cBQygTy7/scene.splinecode"; 
-    } else if(props.weather == "Partly Cloudy") {
+    }
+    else if (props.weather == "Light drizzle") {
+        return "https://prod.spline.design/AwKraN20cBQygTy7/scene.splinecode"; 
+        } 
+    else if(props.weather == "Partly Cloudy") {
     return "https://prod.spline.design/Fr2qEW3pgMnH4LXx/scene.splinecode";
     }
     else{
