@@ -1,0 +1,424 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.Header
+{
+    width: 100%;
+    overflow: hidden;
+    height: 10vh;
+    background: linear-gradient(to right, #cdfcff, #60d2ff);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow:  0px 10px 3px black;
+}
+.Header h1
+{
+    align-self: center;
+}
+
+.Header h1:hover{
+    cursor: pointer;
+}
+.Header h1 span {
+    display: inline-block; 
+
+}
+
+.Card
+{
+    width: 400px;
+    height:500px;
+    position: relative;
+    margin: 10px 45px;
+    margin-bottom: 30px;
+
+}
+.writing
+{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.writing h1
+{
+    align-self: center;
+    margin-top: 20px;
+}
+.writing p
+{
+    align-self: center;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.cloud-image,
+.plain-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.cloud-image {
+    z-index: 1;
+    opacity: 1;
+}
+
+.plain-image {
+    z-index: 2;
+    bottom: -200px;
+}
+.c-image
+{
+    z-index: 2;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    opacity: 1;
+}
+.one
+{
+    top: 0;
+    left: -3%;
+}
+
+.two
+{
+    top: 20%;
+    left: -20%;
+}
+.three
+{
+    top:2%;
+    left:-80%;
+}
+.four
+{
+    top:10%;
+    left:-50%
+}
+.five
+{
+    top: 5%;
+    left: -40%;
+}
+.six
+{
+    top: 10%;
+    left: -40%;
+}
+.p-image
+{
+    position: absolute;
+    z-index: 3;
+    left: -40%;
+    width: 15%;
+    height: 20%;
+    rotate: 15deg;
+}
+.s-image
+{
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: 30%;
+    right: 25%;
+    top:2%;
+}
+.b
+{
+    position: absolute;
+    z-index: 4;
+    left: 5%;
+    top: 5%;
+    
+}
+.cloud-icon
+{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.774);
+    align-self: center;
+    display: inline-block;
+    margin-right: 10px;
+    text-shadow: 2px 3px 4px black;
+}
+.cloud-icon:hover
+{
+    cursor: pointer;
+}
+.sun
+{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    align-self: center;
+    text-shadow: 2px 2px 3px black;
+}
+.sun:hover
+{
+    cursor: pointer;
+}
+.s
+{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 4;
+    background:rgba(0, 0, 0, 0.399);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.side
+{
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.262);
+    backdrop-filter: blur(10px);
+    z-index: 5;
+    top: 0;
+    left: -40%;
+    height: 100vh;
+    border-radius: 0px 50% 50% 0px;
+}
+.slide1
+{
+    width: 95%;
+    position: absolute;
+    background-color: rgba(50, 195, 243, 0.385);
+    z-index: 6;
+    top: 0;
+    left: -95%;
+    height: 100vh;
+    border-radius: 0px 50% 50% 0px;
+}
+.slide2
+{
+    width: 95%;
+    position: absolute;
+    background-color: rgba(50, 195, 243, 0.385);
+    z-index: 6;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    border-radius: 0px 50% 50% 0px;
+}
+.cancel
+{
+    position: absolute;
+    text-shadow:2px 2px 5px black ;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    right: 0;
+    top: 1%;
+    opacity: 0;
+}
+.cancel:hover
+{
+    cursor: pointer;
+}
+.m-image
+{
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: 30%;
+    right: -50%;
+    top:120%;
+    opacity: 0;
+}
+.st-image
+{
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    top:-100px;
+    opacity: 0;
+}
+.Sone
+{
+    top:2%;
+    right: 10%;
+}
+.Stwo
+{
+    top:6%;
+    right: 20%;
+}
+.Sthree
+{
+    top:30%;
+    right: 30%;
+}
+.Sfour
+{
+    top:10%;
+    right: 40%;
+}
+.Sfive
+{
+    top:6%;
+    right: 60%;
+}
+.Ssix
+{
+    top:3%;
+    right: 80%;
+}
+.S7
+{
+    top: 15%;
+    right: 4%;
+}
+.S8
+{
+    top: 18%;
+    right: 8%;
+}
+.S9
+{
+    top: 25%;
+    right: 15%;
+}
+.S10
+{
+    top: 25%;
+    right: 48%;
+}
+.S11
+{
+    top: 15%;
+    right: 66%;
+}
+.S12
+{
+    top: 10%;
+    right: 77%;
+}
+.S13
+{
+    top: 25%;
+    right: 82%;
+}
+.S14
+{
+    top: 30%;
+    right: 91%;
+}
+.S15
+{
+    top: 14%;
+    right: 95%;
+}
+.S16
+{
+    top: 31%;
+    right: 55%;
+}
+.moon
+{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    align-self: center;
+    text-shadow: 2px 2px 3px black;
+}
+.moon:hover
+{
+    cursor: pointer;
+}
+.sM
+{
+    position: absolute;
+    top: -15%;
+    right: 5%;
+    z-index: 4;
+    background:rgba(0, 0, 0, 0.399);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    z-index: 4;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 100vh;
+}
+
+.inputText
+{
+    margin-top: 20%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.inputText input
+{
+    width: 50%;
+    height: 40px;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: inset -1px -2px 3px rgba(45, 197, 208, 0.405);
+}
+.inputText button
+{
+    width: 100px;
+    margin-left: 2%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #3eef5e;
+    border: 1px solid green;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.details
+{
+    border-radius: 50px 50px 50px 50px;
+    scale: 0.8;
+    margin-right: 10%;
+    position: absolute;
+}
