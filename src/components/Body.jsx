@@ -167,33 +167,33 @@ const Body = () => {
 return (
     <div >
 <div className="image-container">
-    <img className="cloud-image" src="../assets/pixelcut-export.jpeg" alt="Cloud" />
-    <img className="plain-image" src="../assets/pixelcut-export.png" alt="Plain" />
-    <img className="c-image one" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="c-image two" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="c-image three" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="c-image four" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="c-image five" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="c-image six" src="../assets/pixelcut-export (5).png" alt="cloud" />
-    <img className="p-image " src="../assets/pixelcut-export (1).png" alt="cloud" />
-    <img className="s-image " src="../assets/pixelcut-export (2).png" alt="cloud" />
-    <img className="m-image" src="../assets/pixelcut-export (3).png" alt="moon" />
-    <img className="st-image Sone" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image Stwo" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image Sthree" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image Sfour" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image Sfive" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image Ssix" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S7" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S8" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S9" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S10" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S11" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S12" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S13" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S14" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S15" src="../assets/pixelcut-export (4).png" alt="star" />
-    <img className="st-image S16" src="../assets/pixelcut-export (4).png" alt="star" />
+    <img className="cloud-image" src="../src/assets/pixelcut-export.jpeg" alt="Cloud" />
+    <img className="plain-image" src="../src/assets/pixelcut-export.png" alt="Plain" />
+    <img className="c-image one" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="c-image two" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="c-image three" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="c-image four" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="c-image five" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="c-image six" src="../src/assets/pixelcut-export (5).png" alt="cloud" />
+    <img className="p-image " src="../src/assets/pixelcut-export (1).png" alt="cloud" />
+    <img className="s-image " src="../src/assets/pixelcut-export (2).png" alt="cloud" />
+    <img className="m-image" src="../src/assets/pixelcut-export (3).png" alt="moon" />
+    <img className="st-image Sone" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image Stwo" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image Sthree" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image Sfour" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image Sfive" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image Ssix" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S7" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S8" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S9" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S10" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S11" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S12" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S13" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S14" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S15" src="../src/assets/pixelcut-export (4).png" alt="star" />
+    <img className="st-image S16" src="../src/assets/pixelcut-export (4).png" alt="star" />
 
 </div>
 <div className='s'>
